@@ -8,7 +8,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    # 🛠️ এই অংশে ডেটাবেজ সার্ভিস ডিফাইন করতে হয়
     services:
       mysql:
         image: mysql:8.0
